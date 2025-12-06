@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo - موقع شركة تقنية</title>
+  <style>
+    :root {
+      --bg: radial-gradient(circle at 10% 20%, #0b1226 0, #0f62fe 50%, #0a0f1c 100%);
+      --card: #0f1627e6;
+      --text: #e9f2ff;
+      --accent: #50b7f5;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: 'Cairo', sans-serif;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+    }
+    .card {
+      max-width: 960px;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 20px 48px rgba(0,0,0,0.35);
+    }
+    h1 { font-size: 28px; margin-bottom: 12px; }
+    p { line-height: 1.7; color: #d8e6ff; margin-bottom: 10px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+    .chip {
+      padding: 8px 12px;
+      border-radius: 12px;
+      background: rgba(80,183,245,0.12);
+      border: 1px solid rgba(80,183,245,0.4);
+      color: #cfe9ff;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .cta {
+      margin-top: 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: linear-gradient(120deg, #50b7f5, #ff9e2c);
+      color: #0b1226;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 12px 20px rgba(0,0,0,0.35);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Demo | موقع شركة تقنية</h1>
+    <p>معاينة ثابتة لتخطيط صفحة هبوط شركة برمجيات: بطل رئيسي، خدمات، شهادات، ونموذج تواصل.</p>
+    <p>المكوّنات المعروضة مشابهة لما سيظهر في التطبيق الفعلي بعد التخصيص النهائي.</p>
+    <div class="chips">
+      <div class="chip">Hero + CTA</div>
+      <div class="chip">خدمات وعرض القيمة</div>
+      <div class="chip">شهادات عملاء</div>
+      <div class="chip">نموذج تواصل</div>
+    </div>
+    <a class="cta" href="https://muntadher9.github.io/project1/">
+      فتح الموقع الكامل
+    </a>
+  </div>
+</body>
+</html>
